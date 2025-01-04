@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=lynx
+DEVICE=panther
 VENDOR=google
 
 # Load extract_utils and do some sanity checks
