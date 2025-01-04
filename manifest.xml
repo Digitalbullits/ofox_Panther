@@ -2,7 +2,7 @@
    <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
-        <version>7.0</version>
+        <version>7.1</version>
         <interface>
             <name>IDevicesFactory</name>
             <instance>default</instance>
@@ -49,15 +49,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.graphics.mapper</name>
-        <transport arch="32+64">passthrough</transport>
-        <version>4.0</version>
-        <interface>
-            <name>IMapper</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.graphics.composer</name>
         <transport>hwbinder</transport>
         <version>2.4</version>
@@ -83,6 +74,20 @@
             <name>IDumpstateDevice</name>
             <instance>default</instance>
         </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.bluetooth.audio</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IBluetoothAudioProvidersFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.boot</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.2::IBootControl/default</fqname>
     </hal>
     <hal format="hidl">
        <name>android.hardware.neuralnetworks</name>
