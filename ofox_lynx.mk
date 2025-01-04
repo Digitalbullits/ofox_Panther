@@ -7,12 +7,12 @@
 
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from lynx device
-$(call inherit-product, device/google/lynx/device.mk)
+# Inherit from panther device
+$(call inherit-product, device/google/panther/device.mk)
 
-PRODUCT_DEVICE := lynx
-PRODUCT_NAME := ofox_lynx
+PRODUCT_DEVICE := panther 
+PRODUCT_NAME := ofox_panther
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Pixel 7a
+PRODUCT_MODEL := Pixel 7
 PRODUCT_MANUFACTURER := google
 
