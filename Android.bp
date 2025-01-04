@@ -7,6 +7,6 @@
 
 soong_namespace {
 	imports: [
-		"device/google/lynx/bootctrl/1.2",
+		"device/google/panther/bootctrl/1.2",
 	],
 }
