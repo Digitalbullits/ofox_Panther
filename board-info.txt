@@ -1,2 +1,2 @@
-require board=lynx
+require board=panther
 require partition-exists=vendor_kernel_boot
