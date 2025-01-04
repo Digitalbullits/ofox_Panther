@@ -6,4 +6,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ofox_lynx.mk
+    $(LOCAL_DIR)/ofox_panther.mk
