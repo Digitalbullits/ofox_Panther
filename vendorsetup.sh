@@ -55,11 +55,11 @@ export FOX_VERSION="R11.1"
 export OF_MAINTAINER=Wishmasterflo
 
 # Build environment stuffs
-export FOX_BUILD_DEVICE="Pixel7a"
+export FOX_BUILD_DEVICE="Pixel7"
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
-export TARGET_DEVICE_ALT="Pixel7a, GooglePixel7a, lynx, Lynx"
-export FOX_TARGET_DEVICES="Pixel7a, GooglePixel7a, lynx, Lynx"
+export TARGET_DEVICE_ALT="Pixel7, GooglePixel7, panther, Panther"
+export FOX_TARGET_DEVICES="Pixel7, GooglePixel7, panther, Panther"
 export BUILD_USERNAME="nobody"
 export BUILD_HOSTNAME="android-build"
 
